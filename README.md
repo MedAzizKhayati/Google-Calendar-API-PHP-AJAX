@@ -1,4 +1,4 @@
-# Google-Calendar-API-PHP-AJAX-
+# Google-Calendar-API-PHP-AJAX
 This is a project requested by Junk Doctors, it is a web application for fetching events of a given date.
 
 Prerequisites
