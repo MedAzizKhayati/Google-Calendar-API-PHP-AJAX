@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Google Calendar API Fetching</title>
+	<meta name="description" content="AJAX/PHP/CURL/JSON">
+	<meta name="author" content="Paddy Evans">
+	<link rel="stylesheet" href="libs/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/css/styles.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1 style="text-align: center">Google Calendar API Fetching</h1>
+		<br><br>
+		<table class="table">
+			<thead>
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">API Name</th>
+					<th scope="col">API Description</th>
+					<th scope="col"></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">1</th>
+					<td>Google Calendar API</td>
+					<td>
+						<strong>
+							This API will return all the events for a specific given date.
+							<br>
+							Choose the date and hit submit, all the corresponding events for that day will be returned
+						</strong>
+						<br><br>
+						<strong>Date Selection</strong> <br>
+						<div class="container">
+							<input type="date" id="event-date" name="date">
+						</div>
+						<br>
+						<div id='google-calendar-row'>
+
+						</div>
+
+					</td>
+					<td><button id="google-calendar" class="btn btn-light">Submit</button></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+	<script type="application/javascript" src="libs/js/script.js"></script>
+</body>
+
+</html>
